@@ -5,7 +5,6 @@ $accessToken =   "EAADExELAZCJYBAKKJ7BRUInV7QmA05WFw9Coffwu96lVqkPHOaCH9QWpLaZCO
 // check token at setup
 if ($_REQUEST['hub_verify_token'] === $hubVerifyToken) {
   echo $_REQUEST['hub_challenge'];
-  exit;
 }
 
 // handle bot's anwser
