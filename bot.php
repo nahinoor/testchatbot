@@ -1,3 +1,4 @@
+<?php
 $hubVerifyToken = 'testchatbot';
 $accessToken =   "EAADExELAZCJYBAKKJ7BRUInV7QmA05WFw9Coffwu96lVqkPHOaCH9QWpLaZCO5xJkpo5OYFvm8aDdXF7MVXe2XZCy68ueM9PwO1tIGqt0BUHMuutAZA4Sfnxj9jV94ZBjngk8FsEKRXyWWZCTesKeJmTpZCSksZBko6CLXkNhnytZArvuJnMfKRn9";
 
@@ -33,3 +34,4 @@ if(!empty($input)){
 $result = curl_exec($ch);
 }
 curl_close($ch);
+?>
